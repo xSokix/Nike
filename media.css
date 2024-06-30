@@ -1,0 +1,191 @@
+@media (max-width: 1155px) {
+    .products .box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+    .collection__wrap {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .Nike h1 {
+        margin-left: -9px;
+    }
+
+    .collection__card {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .Nike h2 {
+        margin-left: -15px;
+    }
+}
+
+@media (max-width: 755px) {
+    .products .box {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .products .box .card {
+        width: 350px;
+    }
+
+    .footer__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 650px) {
+    .shop_box {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 488px) {
+    .footer__contacts {
+        margin-left: 0px;
+    }
+
+    .footer__list {
+        margin-left: -80px;
+        margin-top: 30px;
+    }
+
+    .footer__wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width: 450px) {
+    .shoe_name_price {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .shop_item_container {
+        height: 180px;
+    }
+}
+
+@media (max-width: 425px) {
+    .shop_box {
+        gap: 20px;
+    }
+
+    .collection__card {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 400px) {
+    .shop_item_container {
+        padding: 79px 10px 0 20px;
+    }
+
+    .add_to_shop {
+        right: 30px;
+    }
+
+    .shoe_name_price {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .shop_item_container {
+        height: 175px;
+    }
+
+    .products .box .card {
+        width: 280px;
+    }
+
+    .products h1 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 350px) {
+    .krug {
+        width: 250px;
+        height: 250px;
+    }
+
+    .krug img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 300px) {
+    .products .box .card {
+        width: 230px;
+    }
+
+    .products .box .card {
+        height: 505px;
+    }
+    
+    
+    .nav_dropdown_menu {
+        width: 234px;
+    }
+}
+}
+
+@media (max-width: 270px) {
+    .products h1 {
+        font-size: 35px;
+    }
+
+    .shop_box {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .shop_box {
+        margin: 100px 0;
+    }
+
+    .shop_box {
+        max-height: 55vh;
+        gap: 90px;
+    }
+    
+    .item_2 img {
+        width: 70%;
+    }
+    
+    .products .box .card {
+        height: 525px;
+    }
+    
+    .products .box .card {
+        width: 175px;
+    }
+    
+    .krug {
+        width: 190px;
+        height: 190px;
+    }
+}
